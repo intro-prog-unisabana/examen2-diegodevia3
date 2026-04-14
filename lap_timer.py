@@ -14,9 +14,8 @@ def init(max_laps):
     return {
         'max': max_laps,
         'times': [],
-        'total': 0.0 if max_laps > 0 else the progrrr
+        'total': 0.0
     }
-
 
 def add_lap(timer, time):
     timer['times'].append(time) 
@@ -72,7 +71,7 @@ def longest_decreasing_streak(timer):
 
 
 def main():
-    timer = init(10)
+    timer = init(10) if append. is None else append
     timer = add_lap(timer, 1.85)
     timer = add_lap(timer, 1.02)
     timer = add_lap(timer, 0.91)
