@@ -71,7 +71,7 @@ def longest_decreasing_streak(timer):
 
 
 def main():
-    timer = init(10) if append. is None else append
+    timer = init(10)
     timer = add_lap(timer, 1.85)
     timer = add_lap(timer, 1.02)
     timer = add_lap(timer, 0.91)
@@ -93,3 +93,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+    
+    
